@@ -58,7 +58,7 @@ public class Ejercicio3 {
 			System.out.println(factura);
 		}
 		
-		System.out.printf("El IVA Trimestral: %.2f€", UtilidadesCalculoIVA.calculoIVATrimestral(facturas, 2020, Calendar.OCTOBER));
+		System.out.printf("El IVA Trimestral: %.2f€", UtilidadesCalculoIVA.calculoIVATrimestral(facturas, 2020, Calendar.JANUARY));
 		System.out.printf("\nEl IVA Mensual: %.2f€", UtilidadesCalculoIVA.calculoIVAMesActual(facturas, 2020, Calendar.OCTOBER));
 	}
 }
